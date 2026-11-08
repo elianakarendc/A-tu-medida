@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
   };
 
-  btnProductos.addEventListener('click', scrollToProductos);
+  
   btnVerColeccion.addEventListener('click', scrollToProductos);
 
   // 3. Abrir y cerrar ventana de Inicio de Sesión
